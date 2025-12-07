@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculate.css">
+</head>
+<body topmargin="200px">
+    
+    <center>
+        <div class="calculator">
+            <center>
+                <font size="5px" color="white">
+                      Calculator
+                </font>      
+            </center>
+        <input type="number" id="number1" placeholder="Enter the num1"><br><br>
+        <input type="number" id="number2" placeholder="Enter the num2"><br><br>
+        <button onclick="Addition()" class="XLIcons" id="addition">+</button>
+        <button onclick="Subtraction()" class="XLIcons" id="subtraction">-</button>
+        <button onclick="Multiplictaion()" class="XLIcons" id="multiply">*</button>
+        <div class="lower">
+            <div class="divide">
+              <button onclick="Divide()" class="XLIcons" id="division">/</button>
+            </div>
+
+        <div id="ans">=</div>
+        </div>
+    </div>
+    </center>
+
+
+    <script src="calculate.js"></script>
+</body>
+</html>
