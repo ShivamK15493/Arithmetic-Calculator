@@ -27,7 +27,7 @@ button
 {
     margin-left: 5px;
     padding-left: 10px;
-    width: 193px;
+    width: 192px;
     border: solid 0.3px;
     background-color: rgb(28, 227, 22);
     display: flex;
@@ -37,4 +37,5 @@ button
 .XLIcons
 {
     font-size: xx-large;
+
 }
