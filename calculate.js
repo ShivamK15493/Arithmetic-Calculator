@@ -28,3 +28,8 @@ function Divide()
     let result = parseInt(num1.value) / parseInt(num2.value);
     document.getElementById("ans").innerText=result;
 }
+function reset()
+{
+    location.reload();
+}
+
