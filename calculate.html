@@ -6,7 +6,7 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="calculate.css">
 </head>
-<body topmargin="50px">
+<body topmargin="100px">
 <center>
     <h1>Arithmetic Calculator</h1>
 </center>
@@ -20,18 +20,18 @@
             </center>
         <input type="number" id="number1" placeholder="Enter the num1"><br><br>
         <input type="number" id="number2" placeholder="Enter the num2"><br><br>
-        <button onclick="Addition()" class="XLIcons" id="addition">+</button>
-        <button onclick="Subtraction()" class="XLIcons" id="subtraction">-</button>
-        <button onclick="Multiplictaion()" class="XLIcons" id="multiply">*</button>
+        <button class="XLIcons" id="addition">+</button>
+        <button class="XLIcons" id="subtraction">-</button>
+        <button class="XLIcons" id="multiply">*</button>
         <div class="lower">
             <div class="divide">
-              <button onclick="Divide()" class="XLIcons" id="division">/</button>
+              <button class="XLIcons" id="division">/</button>
             </div>
 
         <div id="ans">=</div>
         </div>
     </div><br>
-    <button onclick="reset()" class="reset">
+    <button id="rese" class="reset">
           Reset
     </button>
     </center>
@@ -40,3 +40,4 @@
     <script src="calculate.js"></script>
 </body>
 </html>
+
