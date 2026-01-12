@@ -8,28 +8,34 @@ const div = document.getElementById("division");
 
 let answer = document.getElementById("ans");
 
-function Addition()
+add.addEventListener("click",() =>
 {
-    let result = parseInt(num1.value) + parseInt(num2.value);
+    let result = parseFloat(num1.value) + parseFloat(num2.value);
     document.getElementById("ans").innerText=result;
-}
-function Subtraction()
+})
+
+sub.addEventListener("click",() =>
 {
-    let result = parseInt(num1.value) - parseInt(num2.value);
+    let result = parseFloat(num1.value) - parseFloat(num2.value);
     document.getElementById("ans").innerText=result;
-}
-function Multiplictaion()
+})
+
+mul.addEventListener("click",() =>
 {
-    let result = parseInt(num1.value) * parseInt(num2.value);
+    let result = parseFloat(num1.value) * parseFloat(num2.value);
     document.getElementById("ans").innerText=result;
-}
-function Divide()
+})
+
+div.addEventListener("click",() =>
 {
-    let result = parseInt(num1.value) / parseInt(num2.value);
+    let result = parseFloat(num1.value) / parseFloat(num2.value);
     document.getElementById("ans").innerText=result;
-}
-function reset()
+})
+
+let resett = document.getElementById("rese");
+resett.addEventListener("click",() =>
 {
     location.reload();
-}
+})
+
 
