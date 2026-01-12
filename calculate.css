@@ -20,7 +20,7 @@ button
 }
 .lower
 {
-    margin-top: 5px;
+   margin-top: 5px;
    display: flex;
 }
 #ans
@@ -33,6 +33,8 @@ button
     display: flex;
     align-items: center;
     font-size: 40px;
+    overflow: scroll;
+    scrollbar-width: none; 
 }
 .XLIcons
 {
@@ -50,5 +52,13 @@ button
     border-radius: 0.3rem;
     cursor: pointer;
 }
+#addition,
+#subtraction,
+#multiply,
+#division
+{
+    cursor: pointer;
+}
+
 
 
