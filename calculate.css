@@ -43,9 +43,10 @@ button
 .reset
 {
     width: 4.4rem;
-    height: 1.5rem;
+    height: 1.7rem;
     background-color: red;
-    border: 0.1rem solid black;
+    border: none;
+    font-family: sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,6 +60,7 @@ button
 {
     cursor: pointer;
 }
+
 
 
 
