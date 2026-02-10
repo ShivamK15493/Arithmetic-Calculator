@@ -33,12 +33,13 @@ button
     display: flex;
     align-items: center;
     font-size: 40px;
+    font-family: sans-serif;
     overflow: scroll;
     scrollbar-width: none; 
 }
 .XLIcons
 {
-    font-size: xx-large;
+    font-size: 3.1rem;
 }
 .reset
 {
@@ -60,6 +61,7 @@ button
 {
     cursor: pointer;
 }
+
 
 
 
