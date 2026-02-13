@@ -11,25 +11,25 @@ let answer = document.getElementById("ans");
 add.addEventListener("click",() =>
 {
     let result = parseFloat(num1.value) + parseFloat(num2.value); // Addition of two input
-    document.getElementById("ans").innerText=result; // Result of the Additon given by the user 
+    document.getElementById("ans").innerText=result; // Result of the Additon  
 })
 
 sub.addEventListener("click",() =>
 {
     let result = parseFloat(num1.value) - parseFloat(num2.value); // Subtraction of two input
-    document.getElementById("ans").innerText=result; // Result of the Subtraction given by the user 
+    document.getElementById("ans").innerText=result; // Result of the Subtraction  
 })
 
 mul.addEventListener("click",() =>
 {
     let result = parseFloat(num1.value) * parseFloat(num2.value); // Multiplication of two input
-    document.getElementById("ans").innerText=result;  // Result of the Multiplication given by the user
+    document.getElementById("ans").innerText=result;  // Result of the Multiplication 
 })
 
 div.addEventListener("click",() =>
 {
     let result = parseFloat(num1.value) / parseFloat(num2.value); // Division of two input
-    document.getElementById("ans").innerText=result; // Result of the Division given by the user
+    document.getElementById("ans").innerText=result; // Result of the Division 
 })
 
 let resett = document.getElementById("rese");
@@ -37,6 +37,7 @@ resett.addEventListener("click",() =>
 {
     location.reload();  // Reload the page
 })
+
 
 
 
